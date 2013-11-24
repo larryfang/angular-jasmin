@@ -1,4 +1,4 @@
-## This sample project demonstrate how to work with Angular with Karma including running unit test via Jasmine and E2E test.
+# This sample project demonstrate how to work with Angular with Karma including running unit test via Jasmine and E2E test.
 
 ## Running it
 Open `index.html` in your web browser

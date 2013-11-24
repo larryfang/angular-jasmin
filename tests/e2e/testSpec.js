@@ -1,11 +1,9 @@
 describe("anything", function() {
-//    beforeEach(function() {
-//        browser().navigateTo('whatever');
-//    });
+    beforeEach(function() {
+        browser().navigateTo('/test.html');
+    });
 it('should let you toggle the class', function() {
-    console.log("hello");
-    browser().navigateTo('/test.html');
-    console.log(element('p:first').prop('className'))
+
     expect(element('p:first').prop('className')).not().toMatch(/bold/);
     expect(element( 'p:first').prop('className')).not().toMatch(/red/);
 
@@ -17,8 +15,7 @@ it('should let you toggle the class', function() {
 });
 
 it('should let you toggle string example', function() {
-    console.log("find out more")
-    console.log(element('p:nth-of-type(2)'))
+
     expect(element('p:nth-of-type(2)').prop('className')).toBe('');
     input('style').enter('red');
     expect(element(' p:nth-of-type(2)').prop('className')).toBe('red');

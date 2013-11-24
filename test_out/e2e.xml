@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<testsuites>
+  <testsuite name="Firefox 13.0.1 (Mac OS X 10.9)" package="e2e" timestamp="2013-11-24T06:42:05" id="0" hostname="las-MacBook-Pro.local" tests="3" errors="0" failures="0" time="0.554">
+    <properties>
+      <property name="browser.fullName" value="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:13.0) Gecko/20100101 Firefox/13.0.1"/>
+    </properties>
+    <testcase name="should let you toggle the class" time="0.216" classname="e2e Firefox 13.0.1 (Mac OS X 10.9).anything"/>
+    <testcase name="should let you toggle string example" time="0.172" classname="e2e Firefox 13.0.1 (Mac OS X 10.9).anything"/>
+    <testcase name="array example should have 3 classes" time="0.166" classname="e2e Firefox 13.0.1 (Mac OS X 10.9).anything"/>
+    <system-out><![CDATA[
+]]></system-out>
+    <system-err/>
+  </testsuite>
+</testsuites>
