@@ -22,7 +22,7 @@ test case under tests/protractor folder
 karma start
 ```
 **Note: karma will find the default configuration file karma.conf.js which will run
-unit test **
+unit test**
 ## E2E Test with Karma
 ```
 node server.js
