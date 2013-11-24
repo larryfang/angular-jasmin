@@ -15,13 +15,14 @@ This project consists of a sample single page AngularJs application which can be
 * The above 2 tests are both run and configured via Karma
 * AngularJS is moving towards Protractor which is based on WebDriverJS
   and not compatible with Karma. Therefore I also include a protector
-test case under tests/protractor folder 
+test case under tests/protractor folder
+ 
 ##Unit Test
 ```
 karma start
 ```
 **Note: karma will find the default configuration file karma.conf.js which will run
-unit test
+unit test **
 ## E2E Test with Karma
 ```
 node server.js
